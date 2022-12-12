@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+  font-family: agency-gothic-ct-cond-tt,sans-serif;
+}
+
+body, footer { /* Apply this font and background color to whole body and tag of page */
+  background-color: #f1f2f3;
+}
+
+p {
+  font-size: 15px;
+}
+
+/* Navigation bar styling */
+
+.NavigationSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #df0000;
+  text-align: left;
+  font-size: 16px;
+}
+
+.NavigationSection li, a { /* Style each link item in the unordered list to white text */
+  display: inline-block; /* Display items horizontally, instead of in a list */
+  padding-right: 10px; /* Add spacing in between each link heading */
+  text-decoration: none; /* remove underline */
+  color: white;
+}
+
+.NavigationSection, p {
+  padding-left: 30px;
+  align-items: center;
+}
+
+.nav-right-align {
+  justify-content: flex-end;
+}
+
+.NavigationSection a:hover {
+  font-weight: bold;
+}
+
+.NavigationSection h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main body styling */
+
+.body-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Main section styling */
+
+.MainSection {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  /* flex-direction: column; */
+}
+
+.AsideSection {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+
+/* Main body section styling */
+
+.media-headers h3 { /* Style the latest news header */
+  display: flex;
+  color: white;
+  font-size: 16px;
+  background-color: #df0000;
+  margin-bottom: 16px;
+  padding: 10px 8px;
+}
+
+.card h5 { /* Style the latest news header */
+  display: flex;
+  color: black;
+  margin-top: 0;    
+  margin-bottom: 2px;
+  padding: 8px 8px;
+}
+
+.content-layout {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* style 3 column layout */
+  gap: 20px;
+}
+
+.card-content {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); /* opacity */
+}
+
+.card-image {
+  width: 100%;
+  display: block;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.gallery img:hover {
+  z-index: 1; /* Make images pop out and overlay on mouse hover */
+  transform: scale(1.6);
+}
+
+.card-content a {
+  line-height: 1.5;
+  font-size: 0.9em;
+  display: flex;
+  padding: 5px 5px;
+  height: 80px;
+}
+
+.AsideSection h4 {
+  font-weight: normal;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* Styling the Tables */
+.league-table{
+margin: 0px 0% 30px 0%;
+}
+
+.league-table table{
+margin: 0px;
+  padding: 0px;
+  border: 1px solid;
+  border-color: black;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th{
+background-color: #151d2d;
+color: white;
+}
+
+.heading{
+text-align: center;
+text-decoration: none;
+color: black;
+margin: 30px;
+display: block;
+}
+
+.pos{
+text-align: center;
+}
+
+.pos td{
+color: black;
+}
+
+table .col{
+border-bottom: 1px solid white;
+}
+
+.pos:hover{
+font-weight: bold;
+}
+
+/* Widget styling */
+
+.widget-styling {
+  width:100%;
+  border:none;
+  transition:all 300ms ease;
+}
+
+
+/* Styling the Footer */
+.FooterSection, .sponsors {
+  display: flex;
+  color: white;
+  background-color: #151d2d;
+  width: 100%;
+  justify-content: center;
+  padding: 15px;
+}
+
+/* Button to take user back to top of page using JavaScript */
+#back-to-top{ 
+  display: flex;
+  background-color: #151d2d;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling the Contact Us form*/
+
+/* Style modal form */
+.modal-form1 {
+  display: none; /* Hide form by default */
+  position: fixed; /* keep window in place */
+  z-index: 1; /* Sets stack order of the element, sits form on top of all other content */
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; /* Allow scrolling if needed */
+  background-color: #f1f2f3; 
+  background-color: rgba(0,0,0,0.4); /* opacity */
+}
+
+/* Modal Content Box */
+.contact-form-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+}
+
+.form-container h3 {
+  display: block;
+  text-align: center;
+}
+
+.form-container input { 
+  margin-bottom: 20px;
+}
+
+.form-container ul {
+  list-style: none;
+}
+
+/* The form Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+/* Styling the Registration form*/
+
+/* The Modal (background) */
+.modal-form2 {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: #f1f2f3; 
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content Box */
+.registration-form-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; 
+}
+
+.form-container ul {
+  list-style: none;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
