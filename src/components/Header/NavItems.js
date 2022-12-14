@@ -34,7 +34,7 @@ export const navItems = [
         url: "#about-us",
         cName: "nav-links",
     },
-
+    {/*
     {
         title: "MEMBER REGISTRATION",
         url: "#",
@@ -45,5 +45,6 @@ export const navItems = [
         title: "CONTACT US",
         url: "#",
         cName: "nav-links-form",
-    }
+    } 
+    */}
     ];
