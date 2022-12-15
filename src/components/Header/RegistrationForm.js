@@ -1,5 +1,8 @@
 import React from "react";
-import "./Forms.css";
+import "./Forms.css"; {/* Importing Forms.css for styling for the Registration and Contact forms */}
+
+{/* Registration form component - this a functional component with code that makes up the content of the Registration Form.
+    The function ContactForm accepts a prop object passed from the Navigation component and returns an output to the React page */}
 
 export default function RegistrationForm({ closeRegistrationModal }) {
     return (
@@ -32,6 +35,8 @@ export default function RegistrationForm({ closeRegistrationModal }) {
                 </ul>
                 <button type="submit" class="submit-button">Submit</button>
                 <button type="button" class="close-button" onClick={() => closeRegistrationModal(false)}>Close</button>
+                {/* Event: When the Close button is clicked, change state of the setOpenContact useState to 'false', which hides the modal form */}
+                
             </form>
         </div>
     </div>

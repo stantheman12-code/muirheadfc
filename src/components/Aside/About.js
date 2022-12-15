@@ -1,5 +1,7 @@
 import React from "react";
 
+{/* About Us section component - this a functional component that combines all the child components that make up the About Us section of the webapp */}
+
 export default function About() {  
         return (
             <div className="AsideAboutSection">

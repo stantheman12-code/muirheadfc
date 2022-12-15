@@ -1,10 +1,10 @@
 import React from "react";
 
+{/* Video Highlights child component - this a functional component with code that makes up the content of the Video Highlights section of webapp */}
+
 export default function VideoHighlights() {
     return (
         <div className="MainVideoHighlights">
-            
-            {/* Video Gallery section */}
             
             <div className="media-headers">
                 <h3 id="video-highlights">Video Highlights</h3>

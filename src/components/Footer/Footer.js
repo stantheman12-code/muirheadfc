@@ -1,10 +1,10 @@
 import React from "react";
 
+{/* Footer section component - this a functional component that combines all the child components that make up the Footer section of the webapp */}
+
 export default function Footer() {
     return (
         <div className="FooterSection">
-        
-            {/* Footer section */}
 
             <h3>Sponsors</h3>
             <section className="sponsors">

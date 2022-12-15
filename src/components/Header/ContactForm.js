@@ -1,11 +1,14 @@
 import React from "react";
-import "./Forms.css";
+import "./Forms.css"; {/* Importing Forms.css for styling of the Registration and Contact forms */}
+
+{/* Contact Us form component - this a functional component with code that makes up the content of the Contact Form.
+    The function ContactForm accepts a prop object passed from the Navigation component and returns an output to the React page */}
 
 export default function ContactForm({ closeContactModal }) {
     return (
 
-    <div className="modalBackground">
-        <div className="modalContainer">                       
+        <div className="modalBackground">
+            <div className="modalContainer">                       
                 <form class="form-container" action="" method="post">
                     <h3>Contact Form</h3>
                     <ul>
@@ -27,9 +30,10 @@ export default function ContactForm({ closeContactModal }) {
                         </li>
                     </ul>
                     <button type="submit" class="submit-button">Submit</button>
-                    <button type="button" class="close-button" onClick={() => closeContactModal(false)}>Close</button>
+                    <button type="button" class="close-button" onClick={() => closeContactModal(false)}>Close</button> 
+                    {/* Event: If the Close button is clicked, change state of the setOpenContact useState to 'false', which hides the modal form */}
                 </form>
+            </div>
         </div>
-    </div>
     );
 }

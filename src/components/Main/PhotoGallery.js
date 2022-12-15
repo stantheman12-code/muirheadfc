@@ -1,9 +1,11 @@
 import React from "react";
 
+{/* Photo Gallery child component - this a functional component with code that makes up the content of the Photo Gallery section of webapp */}
+
 export default function PhotoGallery() {
     return(
         <div className="MainPhotoGallery">
-            {/* Photo Gallery section */}
+            
             <div className="media-headers">
                 <h3 id="photo-gallery">Photo Gallery</h3>
             </div>

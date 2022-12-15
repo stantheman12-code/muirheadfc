@@ -1,9 +1,11 @@
 import React from "react";
 
+{/* Latest News child component - this a functional component with code that makes up the content of the Latest News section of webapp */}
+
 export default function LatestNews() {
     return(
         <div className="MainLatestNewsSection">
-            {/* Latest News section */}
+            
             <section className="media-headers">
                 <h3 id="latest-news">Latest News</h3>
             </section>

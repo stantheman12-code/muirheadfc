@@ -1,5 +1,7 @@
 import React from "react";
 
+{/* Leader Board child component - this a functional component with code that makes up the content of the Leader Board section of webapp */}
+
 export default function LeaderBoard() {
     return (
         <div className="AsideLeaderBoard">

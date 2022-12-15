@@ -1,5 +1,7 @@
 import React from "react";
 
+{/* Upcoming Games child component - this a functional component with code that makes up the content of the Upcoming Games section of webapp */}
+
 export default function UpcomingGames() {
         return (
             <div className="AsideUpcomingGames">

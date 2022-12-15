@@ -1,9 +1,11 @@
 import React from "react";
 
+{/* Latest Scores child component - this a functional component with code that makes up the widget content of the Latest Scores section of webapp */}
+
 export default function LatestScores() {
     return (
         <div className="AsideLatestScores">
-            {/* Upcoming Games and Latest Match Results */}
+            {/* Latest Scores widget */}
             
             <div className="media-headers">
                 <h3>Live Results - National</h3>

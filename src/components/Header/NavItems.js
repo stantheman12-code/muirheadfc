@@ -1,3 +1,6 @@
+{/* Declaring a variable called navItems, which contains properties of each navigation item that will be present in the bnavigation bar.
+    These items will be stored in an array. */}
+
 export const navItems = [
     {
         title: "HOME",
@@ -34,17 +37,4 @@ export const navItems = [
         url: "#about-us",
         cName: "nav-links",
     },
-    {/*
-    {
-        title: "MEMBER REGISTRATION",
-        url: "#",
-        cName: "nav-links-form",
-    },
-
-    {
-        title: "CONTACT US",
-        url: "#",
-        cName: "nav-links-form",
-    } 
-    */}
     ];

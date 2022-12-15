@@ -1,10 +1,10 @@
 import React from "react";
 
+{/* Video Interviews child component - this a functional component with code that makes up the content of the Video Interviews section of webapp */}
+
 export default function VideoInterviews() {
     return (
         <div className="MainVideoInterviews">
-            
-            {/* Player Interview Videos section */}
     
             <div className="media-headers">
                 <h3 id="video-interviews">Player Interviews</h3>
