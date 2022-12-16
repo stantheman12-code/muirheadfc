@@ -13,7 +13,7 @@ export default function LatestNews() {
             <section className="content-layout">
                 <div className="card">
                     <h5>Mens</h5>
-                    <img src="./assets/News-photo1-400x300.jpg" alt="" className="card-image" />
+                    <img src="./assets/news-photo1-400x300.jpg" alt="" className="card-image" />
                     <div className="card-content">
                         <a href="./">Muirhead's cruise to victory</a>
                     </div>
@@ -21,7 +21,7 @@ export default function LatestNews() {
 
                 <div className="card">
                      <h5>Womens</h5>
-                    <img src="./assets/News-photo2-400x300.jpg" alt="" className="card-image" />
+                    <img src="./assets/news-photo2-400x300.jpg" alt="" className="card-image" />
                         <div className="card-content">
                             <a href="./">Federal Government contributes $2.7 million to women’s football programs</a>
                         </div>
@@ -29,7 +29,7 @@ export default function LatestNews() {
                  
                 <div className="card">
                     <h5>Nationals</h5>
-                    <img src="./assets/News-photo4-400x300.jpg" alt="" className="card-image" />
+                    <img src="./assets/news-photo4-400x300.jpg" alt="" className="card-image" />
                         <div className="card-content">
                             <a href="./">Muirhead's great start to the season</a>
                         </div>
