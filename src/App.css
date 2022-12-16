@@ -51,13 +51,14 @@ p {
   width: 60%;
   display: inline-flex;
   flex-direction: column;
-  border-right: 25px solid white;
+  padding: 0px 10px;
 }
 
 .AsideSection {
   width: 40%;
   display: inline-flex;
   flex-direction: column;
+  padding: 0px 10px;
 }
 
 /* Main body section styling */
