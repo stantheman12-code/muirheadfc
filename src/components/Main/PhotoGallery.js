@@ -14,19 +14,19 @@ export default function PhotoGallery() {
                 <div className="gallery">
                     <h5>Mens</h5>
                     <a href="./">
-                    <img src="./assets/News-photo1-400x300.jpg" alt="" className="card-image" /></a>
+                    <img src="./assets/news-photo1-400x300.jpg" alt="" className="card-image" /></a>
                 </div>
     
                 <div className="gallery">
                     <h5>Womens</h5>
                     <a href="./">
-                    <img src="./assets/News-photo2-400x300.jpg" alt="" className="card-image" /></a>
+                    <img src="./assets/news-photo2-400x300.jpg" alt="" className="card-image" /></a>
                 </div>
                 
                 <div className="gallery">
                     <h5>Nationals</h5>
                     <a href="./">
-                    <img src="./assets/News-photo4-400x300.jpg" alt="" className="card-image" /></a>
+                    <img src="./assets/news-photo4-400x300.jpg" alt="" className="card-image" /></a>
                 </div>
             </section>
         </div>
