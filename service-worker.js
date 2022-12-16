@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/muirheadfc/precache-manifest.7e1e5a355c445b7f64f7f1880cb99f10.js"
+  "/muirheadfc/precache-manifest.c084b6948034bd3a50417ba5d4a81f0b.js"
 );
 
 workbox.clientsClaim();
