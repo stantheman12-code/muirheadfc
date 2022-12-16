@@ -218,6 +218,9 @@ table .col {
   color: white;
   background-color: #151d2d;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
   padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* style 3 column layout */
+  
 }

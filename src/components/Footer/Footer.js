@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="FooterSection">
 
             <h3>Sponsors</h3>
-            <section className="sponsors">
+            <section className="sponsor-logos">
                 <a href="https://www.adidas.com.au">
                 <img src="./assets/sponsor-logo1-120x82.42.png" alt="Adidas" /></a>
                 <a href="https://www.kfc.com.au">
