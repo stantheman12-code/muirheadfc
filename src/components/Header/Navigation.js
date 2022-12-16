@@ -39,7 +39,9 @@ export default function Navigation() {
                     <li><a id="contact-us" href="#null" onClick={() => {setOpenContact(true)}}>CONTACT US</a></li>
                 </ul>
                 
-            {/* Conditions to change the state of the form components to 'false' to close the form */}
+                {/* Inline if condition with logical && condition to change the state of the form components to 'false' in order to close the form again
+                when the Close button inside the open form is clicked. The closeRegistrationModal is passed to the corresponding function componenents */}
+
                 {openRegistration && <RegistrationForm closeRegistrationModal={setOpenRegistration}/>}
                 {openContact && <ContactForm closeContactModal={setOpenContact}/>}
                             

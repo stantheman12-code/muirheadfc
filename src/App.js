@@ -2,7 +2,7 @@ import Header from "./components/Header/Navigation";
 import Main from "./components/Main/Main";
 import Aside from "./components/Aside/Aside";
 import Footer from "./components/Footer/Footer";
-import './App.css';
+import './App-copy.css';
 
 export default function App() {
 
