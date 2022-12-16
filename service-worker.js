@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/stantheman12-code/muirheadfc/precache-manifest.90d400729e3d87f723e6f41250e9b642.js"
+  "/muirheadfc/precache-manifest.7e1e5a355c445b7f64f7f1880cb99f10.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/stantheman12-code/muirheadfc/index.html", {
+workbox.routing.registerNavigationRoute("/muirheadfc/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
