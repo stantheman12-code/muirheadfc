@@ -2,7 +2,7 @@ import React from "react";
 import "./Forms.css"; {/* Importing Forms.css for styling for the Registration and Contact forms */}
 
 {/* Registration form component - this a functional component with code that makes up the content of the Registration Form.
-    The function ContactForm accepts a prop object passed from the Navigation component and returns an output to the React page */}
+    The function ContactForm accepts an object passed from the Navigation component and returns an output to the React page */}
 
 export default function RegistrationForm({ closeRegistrationModal }) {
     return (
